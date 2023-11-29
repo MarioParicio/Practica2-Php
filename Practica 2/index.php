@@ -92,7 +92,7 @@ echo "<br/>";
 // Explicación del código strtotime y date
 echo "<hr>";
 echo strtotime("now"), "<br/>";
-echo date('d-m-Y', strtotime("now")), "<br/>";
+echo  date('d-m-Y', strtotime("now")), "<br/>";
 echo strtotime("27 September 1970"), "<br/>";
 echo date('d-m-Y',strtotime("10 September 2000")), "<br/>";
 echo strtotime("+1 day"), "<br/>";
